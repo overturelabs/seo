@@ -108,16 +108,4 @@ class SEO {
 
         return "<title>$this->title</title>\n<meta name=\"description\" content=\"$this->description\">\n<meta name=\"keywords\" content=\"$this->keywords\">\n";
     }
-
-    /**
-     * Generates a sitemap.xml file.
-     *
-     * @todo This will work better if we have a content controller
-     *
-     * @return [type] [description]
-     */
-    public function getSiteMap()
-    {
-        // dd($this->router->getRoutes());
-    }
 }
